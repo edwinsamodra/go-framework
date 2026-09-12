@@ -1,4 +1,4 @@
-module example.com/todo-comparison/common
+module github.com/edwinsamodra/go-framework/common
 
 go 1.26.2
 

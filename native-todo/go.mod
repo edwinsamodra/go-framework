@@ -1,9 +1,9 @@
-module todo-comparison/native-todo
+module github.com/edwinsamodra/go-framework/native-todo
 
 go 1.26.2
 
-require example.com/todo-comparison/common v0.0.0
+require github.com/edwinsamodra/go-framework/common v0.0.0
 
-replace example.com/todo-comparison/common => ../common
+replace github.com/edwinsamodra/go-framework/common => ../common
 
 require filippo.io/edwards25519 v1.1.0 // indirect

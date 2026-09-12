@@ -1,13 +1,13 @@
-module todo-comparison/echo-todo
+module github.com/edwinsamodra/go-framework/echo-todo
 
 go 1.26.2
 
 require (
 	github.com/labstack/echo/v4 v4.13.4
-	example.com/todo-comparison/common v0.0.0
+	github.com/edwinsamodra/go-framework/common v0.0.0
 )
 
-replace example.com/todo-comparison/common => ../common
+replace github.com/edwinsamodra/go-framework/common => ../common
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect

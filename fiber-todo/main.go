@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"errors"
 
-	"example.com/todo-comparison/common"
+	"github.com/edwinsamodra/go-framework/common"
 	"github.com/gofiber/fiber/v2"
 )
 

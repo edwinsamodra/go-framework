@@ -1,13 +1,13 @@
-module todo-comparison/gin-todo
+module github.com/edwinsamodra/go-framework/gin-todo
 
 go 1.26.2
 
 require (
 	github.com/gin-gonic/gin v1.11.0
-	example.com/todo-comparison/common v0.0.0
+	github.com/edwinsamodra/go-framework/common v0.0.0
 )
 
-replace example.com/todo-comparison/common => ../common
+replace github.com/edwinsamodra/go-framework/common => ../common
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect

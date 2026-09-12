@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	"example.com/todo-comparison/common"
+	"github.com/edwinsamodra/go-framework/common"
 	"github.com/gin-gonic/gin"
 )
 
