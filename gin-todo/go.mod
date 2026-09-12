@@ -3,8 +3,8 @@ module github.com/edwinsamodra/go-framework/gin-todo
 go 1.26.2
 
 require (
-	github.com/gin-gonic/gin v1.11.0
 	github.com/edwinsamodra/go-framework/common v0.0.0
+	github.com/gin-gonic/gin v1.11.0
 )
 
 replace github.com/edwinsamodra/go-framework/common => ../common
@@ -19,6 +19,7 @@ require (
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.27.0 // indirect
+	github.com/go-sql-driver/mysql v1.9.3 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/goccy/go-yaml v1.18.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
